@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .heading{
+    text-align:center;
+  }
+  .container{
+    position:relative;
+    background:lightblue;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+  /*   justify-content: center;
+    align-content: center; */
+    text-align: center;
+    
+  }
+  .button{
+    width:60px;
+    padding:12px;
+    margin:3px;
+    border:2px solid black;
+    border-radius:11px;
+    cursor:pointer;
+    color:rgb(189, 220, 169);
+    background-color: rgb(35, 35, 136);
+  }
+  .row-1 input{
+    padding:10px;
+    margin-bottom:10px;
+    border:2px solid black; 
+    color:rgb(160, 31, 180);
+    background-color:rgb(190, 218, 209);
+    border-radius: 11px;
+    font-size:20px;
+  }
